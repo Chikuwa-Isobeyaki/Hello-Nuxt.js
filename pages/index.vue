@@ -1,10 +1,16 @@
 <template>
   <section class="container">
-      <p>Hello Nuxt.js!</p>
+      <p>{{ message }}</p>
   </section>
 </template>
 
 
 <script>
-export default {}
+export default {
+  data: function() {
+    return {
+       message: 'Hello Word!!'
+    }
+  }
+}
 </script>
